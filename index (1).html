@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login com Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="app">
+        <h1>Login com Facebook</h1>
+        <button id="fb-login-btn">Login com Facebook</button>
+        <div id="user-info" style="display: none;">
+            <h2>Informações do Usuário</h2>
+            <p><strong>Nome:</strong> <span id="user-name"></span></p>
+            <p><strong>Email:</strong> <span id="user-email"></span></p>
+        </div>
+    </div>
+
+    <!-- SDK do Facebook -->
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
